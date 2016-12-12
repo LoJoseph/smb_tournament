@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
+* {
+	margin: none;
+	padding: none;
+}
+
+body {
+	background-repeat: no-repeat;
+}
+
+main {
+	margin-top: -11.5em;
+
+
+}
+
+img {
+	width: 100%;
+	height: 38em;
+}
+
+h1 {
+	text-align: center;
+    font-family: 'Nunito', sans-serif;
+    position: absolute;
+    margin-left: auto;
+    width: 101%
+}
+
+.formulaire {
+	position: relative;
+    width: 36%;
+	margin: auto;
+	background-image: url(../img/box.png);
+	color: white;
+    text-shadow: 0.3em 0.18em 0.4em black;
+    background-size: 485px 300px;
+	background-repeat: no-repeat;
+	border-radius: 4em;
+}
+
+input:last-of-type {
+	margin-left: 4em;
+
+}
+
+form {
+    width: 56%;
+    margin: auto;
+	font-family: 'Nunito', sans-serif;
+
+}
+
+
+input {
+	display: block;
+    margin-bottom: 0.6em;
+    font-size: 1.4em;
+	font-family: 'Nunito', sans-serif;
+}
+
+.alert {
+	color: red;
+	border: solid black;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	background-color: moccasin;
+    display: inline-block;
+    position: absolute;
+    margin-top: 13em;
+    margin-left: 17.5em;
+    padding: 1em;
+    font-size: 26px;
+}
+
+.agree {
+	color: green;
+	border: solid black;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	background-color: moccasin;
+    display: inline-block;
+    position: absolute;
+    margin-top: 13em;
+    margin-left: 17.5em;
+    padding: 1em;
+    font-size: 26px;
+}
