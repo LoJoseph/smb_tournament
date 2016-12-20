@@ -9,5 +9,6 @@ $options = [
 ];
 
 $draft = NEW PDO($DSN,$user,$mdp,$options);
+?>
 
 
